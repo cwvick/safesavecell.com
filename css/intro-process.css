@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.process-list li {
+  height: 128px;
+  overflow: hidden;
+}
+.process-list li .process-num {
+  font-family: 'Rockwell';
+  font-size: 72px;
+  line-height: 128px;
+  color: #ba0183;
+  float: left;
+  width: 70px;
+  text-align: center;
+}
+.process-list li .process-img {
+  float: left;
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url(../images/img-process.png) no-repeat;
+}
+.process-list li .process-content {
+  float: left;
+  margin-left: 65px;
+}
+.process-list li .process-content .process-title {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.process-list li .process-content .process-desc {
+
+}
+.process-list li.process-line {
+  height: 80px;
+  border-left: 2px solid #ba0183;
+  margin-left: 134px;
+}
+.process-list li.intro-process-2 .process-img {
+  background-position: 0 -128px;
+}
+.process-list li.intro-process-3 .process-img {
+  background-position: 0 -256px;
+}
+.process-list li.intro-process-4 .process-img {
+  background-position: 0 -384px;
+}
+.process-list li.intro-process-5 .process-img {
+  background-position: 0 -512px;
+}
+.process-list li.intro-process-6 .process-img {
+  background-position: 0 -640px;
+}
